@@ -4,15 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <title>PRODUCTOS De La COSTA</title>
-
-<!-- ============================================ -->
-<!-- ESTILOS EXTERNOS                             -->
-<!-- ============================================ -->
 <link rel="stylesheet" href="css/styles.css"/>
-
-<!-- ============================================ -->
-<!-- DEPENDENCIAS CDN                            -->
-<!-- ============================================ -->
 <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/firebase@10.13.0/firebase-app-compat.js"></script>
@@ -20,12 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/firebase@10.13.0/firebase-firestore-compat.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
-
-<!-- ============================================ -->
-<!-- ESTILOS INLINE (SOLO LOS ESENCIALES)        -->
-<!-- ============================================ -->
 <style>
-  /* RESET BASE - Solo lo que no está en styles.css */
   *,
   *::before,
   *::after {
@@ -33,7 +20,6 @@
     margin: 0;
     padding: 0;
   }
-
   html,
   body {
     height: 100%;
@@ -75,27 +61,18 @@
 </head>
 <body>
 
-<!-- ============================================ -->
-<!-- ROOT                                        -->
-<!-- ============================================ -->
+
 <div id="root">
   <div style="display:flex;justify-content:center;align-items:center;height:100vh;color:#94a3b8;font-size:14px">
     Iniciando…
   </div>
 </div>
 
-<!-- ============================================ -->
-<!-- SCRIPTS                                     -->
-<!-- ============================================ -->
-
-<!-- 1. UTILIDADES -->
 <script type="text/babel" src="js/utils/helpers.js"></script>
 
-<!-- 2. COMPONENTES EXTERNOS -->
 <script type="text/babel" src="js/components/ModoSelector.js"></script>
 <script type="text/babel" src="js/components/RutaRepartoAvanzado.js"></script>
 
-<!-- 3. APP PRINCIPAL -->
 <script type="text/babel" src="js/app.js"></script>
 
 </body>
